@@ -5,7 +5,7 @@ NTP Amplification attack Demonstration using C++
 Compiling.
 ===
     gcc NTPAttack.cpp -o NTPAttack -lstdc++ -lpthread
-Running NTP Doser.
+Running NTPAttack.
 ===
 	sudo ./NTPAttack [target] [threads] [time]
 
