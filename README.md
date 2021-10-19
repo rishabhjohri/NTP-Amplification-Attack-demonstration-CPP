@@ -1,7 +1,8 @@
 # NTP-Amplification-Attack-demonstration-C-
 NTP Amplification Attack demonstration C++
 
-NTP Amplification attack Demonstration using C++
+
+===
 Compiling.
 ===
     gcc NTPAttack.cpp -o NTPAttack -lstdc++ -lpthread
